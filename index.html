@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Bootstrap</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body onload="cadastro();">
+<h1 align="center">CADASTRO DE ALUNOS</h1>
+<div class="container">
+<form class="row" action="" method="" name="formTeste">
+
+<div class="col-3">
+	<label for="nome">Nome:</label>
+	<input id="nome" type="text" name="nome" size="10" class="form-control" />
+</div>	
+
+<div class="col-2">
+	<label for="dtanasc">Data de Nascimento:</label>
+	<input id="dtanasc" type="text" name="dtanasc" size="10" class="form-control"/>
+</div>	
+
+<div class="col-2">
+	<label for="ano">Ano letivo:</label>
+	<input id="ano" type="text" name="ano" size="10" class="form-control"/>
+</div>	
+
+<div class="col-2">
+	<label for="mp">Matéria Preferida:</label>
+	<input id="mp" type="text" name="" size="10" class="form-control"/>
+</div>	
+
+
+<div class="col-2">
+	<button onclick="cadastro()" type="submit" class="btn btn-primary" style="margin-top: 30px;">Salvar</button>
+</div>
+</div>
+
+</form>
+<br/>
+<table class="table table-striped">
+	<colgroup>
+		<col width="200">	
+		<col width="200">
+		<col width="150">
+		<col width="200">
+		<col width="100">
+	</colgroup>
+	<thead>
+		<tr>
+			<th>Nome</th>
+			<th>Data de Nascimento</th>
+			<th>Ano letivo</th>
+			<th>Matéria Preferida</th>
+
+			<th>Editar</th>
+			<th>Excluir</th>
+		</tr>
+	</thead>
+	<tbody>
+
+</div>    
+		<tr>
+
+
+			<td id="conteudo"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>
+				<button class="btn btn-warning" >Editar</button>
+			</td><td>
+				<button class="btn btn-danger">Excluir</button>
+
+			</td>
+			<td></td>
+
+
+		</tr>
+		
+	</tbody>
+</table>
+</body>
+</html>
